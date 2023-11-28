@@ -1,0 +1,143 @@
+.account-route-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.account-container {
+  flex: 1;
+  padding: 65px 165px;
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 767px) {
+  .account-container {
+    padding: 32px;
+  }
+}
+
+.account-container-heading {
+  color: #131313;
+  font-family: "Roboto";
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .account-container-heading {
+    font-weight: 500;
+    font-size: 24px;
+    margin-bottom: -12px;
+  }
+}
+
+.separator {
+  border: 1px solid #cbd5e1;
+  margin: 24px 0;
+}
+
+.account-section {
+  display: flex;
+}
+
+.account-section-label {
+  color: #94a3b8;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin: 0 24px 0 0;
+}
+
+@media screen and (max-width: 767px) {
+  .account-section-label {
+    font-weight: 600;
+    font-size: 18px;
+  }
+}
+
+.email,
+.membership-type {
+  color: #1e293b;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0;
+}
+
+.email {
+  margin-bottom: 12px;
+}
+
+@media screen and (max-width: 767px) {
+  .email,
+  .membership-type {
+    font-weight: 500;
+    font-size: 16px;
+  }
+  .email {
+    margin-bottom: 6px;
+  }
+}
+
+.password {
+  color: #64748b;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .password {
+    font-weight: 500;
+    font-size: 16px;
+  }
+}
+
+.quality {
+  color: #1e293b;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  border: 2px solid #1e293b;
+  padding: 2px 4px;
+  border-radius: 2px;
+  margin: 0 0 0 16px;
+}
+
+@media screen and (max-width: 767px) {
+  .quality {
+    font-weight: 600;
+    font-size: 14px;
+  }
+}
+
+.logout-btn {
+  padding: 8px 20px;
+  border: none;
+  outline: none;
+  background-color: #e50914;
+  border-radius: 4px;
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px; /* 150% */
+  margin: 40px auto;
+}
+
+@media screen and (max-width: 767px) {
+  .logout-btn {
+    margin: 24px auto 0;
+  }
+}

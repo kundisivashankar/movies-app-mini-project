@@ -1,0 +1,24 @@
+.movie-card-container {
+  list-style-type: none;
+  margin-bottom: 24px;
+  margin-right: 30px;
+}
+
+@media screen and (max-width: 767px) {
+  .movie-card-container {
+    margin-right: 12px;
+    margin-bottom: 12px;
+  }
+}
+
+.movie-card-image {
+  width: 250px;
+  border-radius: 16px;
+}
+
+@media screen and (max-width: 767px) {
+  .movie-card-image {
+    width: 90px;
+    border-radius: 8px;
+  }
+}
